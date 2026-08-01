@@ -1,5 +1,5 @@
-﻿# Deep-Neural-Network-from-Scratch-with-CuPy
-This project implements a multi-layer neural network from scratch (without PyTorch or TensorFlow) using CuPy for accelerated GPU training on the MNIST dataset.
+﻿# Building-a-Neural-Network-from-Scratch-with-He-Initialization
+A pure Python implementation of a neural network built from scratch without deep learning frameworks (like PyTorch or TensorFlow), featuring custom He initialization to optimize training performance for deep architectures.
 
 # 0. Outline
 - [1. Building model](#1-building-model)
