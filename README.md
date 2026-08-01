@@ -194,7 +194,7 @@ Variance of A2: 0.6752
 Variance of A3: 0.6752
 ```
 
-Therefore, considering $Z$ is passed into ReLU, when $\text{weight\_matrix} = \text{weight\_matrix} \times \frac{2}{\sqrt{n_{\text{pred}}}}$, the variance of $g(Z)$ is maintained even as the model becomes deeper.
+Therefore, considering $Z$ is passed into ReLU, when weight matrix = weight matrix $\\times \frac{2}{\sqrt{n_{\text{pred}}}}$, the variance of $g(Z)$ is maintained even as the model becomes deeper.
 # 3. Train model with He initialization
 ## 3.1 Edit initialization function
 ```
